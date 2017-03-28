@@ -1,0 +1,400 @@
+/* productService */
+/*h1~h6*/
+/*before*/
+/*Helper*/
+/*Question*/
+/*DevLink*/
+/*customercase*/
+/*ecologycooperation*/
+.f-r {
+  float: right;
+}
+.f-l {
+  float: left;
+}
+.d-ib {
+  display: inline-block;
+}
+.d-b {
+  display: block;
+}
+.va-m {
+  vertical-align: middle;
+}
+.clearfix:after {
+  /*最简方式*/
+  content: '';
+  display: block;
+  clear: both;
+}
+.clearfix {
+  /*兼容 IE*/
+  zoom: 1;
+}
+/*cont块距离顶部70px*/
+.mt {
+  margin-top: 0.77rem;
+}
+/*清除浮动*/
+.clearfloat:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+}
+.clearfloat {
+  zoom: 1;
+}
+.center {
+  position: relative;
+  width: 10.6rem;
+  margin: 0 auto;
+  clear: both;
+}
+/*图片自适应*/
+.img-res {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+.pdtb-110280 {
+  padding: 1.11rem 0 2.8rem;
+}
+.pdtb-110110 {
+  padding: 1.11rem 0 1.1rem;
+}
+.pdt-110 {
+  padding: 1.11rem 0 0;
+}
+.pdtb-11055 {
+  padding: 1.1rem 0.55rem;
+}
+.pdtb-5555 {
+  padding: 0.55rem 0 0.55rem;
+}
+.pdtb-55110 {
+  padding: 0.55rem 1.1rem;
+}
+.pdb-280 {
+  padding: 0 0 2.8rem;
+}
+.pdb-110 {
+  padding: 0 0 1.1rem;
+}
+.mgtb-1025 {
+  margin: 0.1rem 0 0.25rem;
+}
+.bg-white {
+  background: #ffffff;
+}
+.bg-gray {
+  background-color: #f8f8f8;
+}
+.bg-gray-food {
+  background-color: #f2f2f2;
+}
+.bg-red {
+  background-color: #e63a3a;
+}
+.bg-black {
+  background-color: #333333;
+}
+.bg-black-food {
+  background-color: #000000;
+}
+a.btn-normal {
+  height: 0.44rem;
+  line-height: 0.45rem;
+  padding: 0 0.3rem;
+}
+a.btn-raduis {
+  border-radius: 2px;
+}
+a.btn {
+  display: inline-block;
+  font-size: 0.14rem;
+  color: #fff;
+  background: #1989fa;
+  position: relative;
+  z-index: 56;
+}
+a.btn::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  -ms-transform: scale(1.5, 1.5);
+  -webkit-transform: scale(1.5, 1.5);
+  transform: scale(1.5, 1.5);
+}
+a.btn:hover:before {
+  content: 'VueDemo';
+  text-align: center;
+  background-color: #e7232e;
+  opacity: 1;
+  z-index: 0;
+  color: #fff;
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
+a.btn_gold {
+  background: #f8c695;
+  color: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  font-size: 0.14rem;
+  position: relative;
+  z-index: 56;
+}
+a.btn_gold::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  -ms-transform: scale(1.5, 1.5);
+  -webkit-transform: scale(1.5, 1.5);
+  transform: scale(1.5, 1.5);
+}
+a.btn_gold:hover:before {
+  content: 'VueDemo';
+  text-align: center;
+  background-color: #2BD8AE;
+  opacity: 1;
+  z-index: 0;
+  color: #fff;
+  border-radius: 2px;
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
+a.btn_text_1:hover:before {
+  content: 'djkloop制作';
+}
+a.btn_text_2:hover:before {
+  content: '新疆印象';
+}
+a.btn_text_3:hover:before {
+  content: '团结模范';
+}
+a.btn_text_4:hover:before {
+  content: '特色文化';
+}
+a.btn_text_5:hover:before {
+  content: '美食发现';
+}
+.router-link-active {
+  color: #1989fa;
+}
+.flex {
+  /* Firefox */
+  display: -ms-flexbox;
+  /* IE10 */
+  display: -webkit-box;
+  /* Safari */
+  display: -webkit-flex;
+  /* Chrome, WebKit */
+  display: flexbox;
+  display: flex;
+}
+body,
+html {
+  width: 100%;
+  font-size: 100px;
+  height: 100%;
+}
+.productservice {
+  background-color: #ffffff;
+}
+.productservice .title-img {
+  margin: -1.1rem -0.75rem -0.6rem 0;
+}
+.productservice .product_text {
+  font-size: 0.18rem;
+  color: #333333;
+  line-height: 0.32rem;
+  margin: 0.3rem 0 0.4rem 0;
+}
+.productservice .productserviceTop {
+  background: #f8f8f8;
+  overflow: hidden;
+}
+.productservice .culture {
+  line-height: 200px;
+}
+.productservice .culture_img {
+  box-shadow: 0 0 10px #000000;
+  border-radius: 50%;
+  margin-right: 60px;
+  -webkit-transition: all 1s linear;
+          transition: all 1s linear;
+}
+.productservice .culture_img:hover {
+  -webkit-transform: rotateZ(360deg);
+          transform: rotateZ(360deg);
+}
+.productservice .fj_his {
+  padding: 0.3rem 0.5rem 0 0;
+  font-size: 0.14rem;
+}
+.productservice .tel-a {
+  color: #1989fa;
+}
+.productservice a.btn-objSave {
+  margin: 0 0.16rem 0 0;
+}
+.productservice .product {
+  background-color: #ffffff;
+  position: relative;
+  padding: 0.7rem 0.7rem 1.2rem;
+  margin: 0 auto;
+}
+.productservice .mgt-150 {
+  margin: -1.5rem auto 0;
+}
+.productservice .product_block li {
+  float: left;
+}
+.productservice .product-img {
+  float: left;
+  width: 1rem;
+  height: 1rem;
+  margin: 0 0.4rem 0 0;
+}
+.productservice .product-context {
+  float: left;
+}
+.productservice .product-context p {
+  margin: 0.2rem 0 0 0;
+  font-size: 0.14rem;
+  line-height: 0.185rem;
+}
+.productservice .col-list {
+  margin: 0 0 0.55rem;
+}
+.productservice .UseSence .tabs {
+  margin: 0.68rem 0 0;
+}
+.productservice .Helper .help-h2 {
+  margin: 0 0.8rem 0 0;
+  float: left;
+}
+.productservice .Helper .help-nav {
+  float: left;
+  padding: 0.22rem 0 0;
+}
+.productservice .Helper .help-nav ul {
+  float: left;
+}
+.productservice .Helper .help-nav ul a {
+  line-height: 0.32rem;
+  color: #333333;
+  font-size: 0.14rem;
+}
+.productservice .Helper .help-nav ul a.helper-dev {
+  color: #1989fa;
+  margin: 0.1rem 0 0;
+}
+.productservice .Helper .help-nav ul a.helper-dev-more {
+  padding: 0 0.22rem 0 0;
+  background: url("../../imgs/link-next.png") no-repeat right 9px;
+  background-size: 8px 12px;
+}
+.productservice .Helper .help-h4 {
+  font-size: 0.22rem;
+  line-height: 0.3rem;
+  margin: 0 0 0.16rem;
+  color: #333333;
+  position: relative;
+}
+.productservice .Helper .help-h4:before {
+  position: absolute;
+  content: '';
+  top: -0.18rem;
+  width: 0.4rem;
+  height: 0.02rem;
+  background: #e5e5e5;
+}
+.productservice .Question ul {
+  float: left;
+  border-top: 1px solid #e5e5e5;
+  margin: 0.5rem 0 0.35rem;
+}
+.productservice .Question ul li {
+  display: block;
+  border-bottom: 1px solid #e5e5e5;
+}
+.productservice .Question ul .ques-link {
+  display: block;
+  padding: 0.25rem 0;
+  font-size: 0.14rem;
+  background: url("../../imgs/expand.png") no-repeat right center;
+  background-size: 0.1rem 0.1rem;
+}
+.productservice .Question ul .ques-link:hover {
+  background: url("../../imgs/expand-h.png") no-repeat right center;
+  color: #1989fa;
+  background-size: 0.1rem 0.1rem;
+}
+.productservice .Question .ques-left {
+  margin-left: 0.9rem;
+}
+.DevLink .link div {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 0.32rem;
+  line-height: 0.32rem;
+  padding: 0.34rem 0 0.34rem 0.34rem;
+  margin: 0 0.2rem 0 0;
+  position: relative;
+}
+.DevLink .link div:after {
+  content: '';
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  left: 0;
+  top: 0;
+  background: #ededed;
+}
+.DevLink .link div img {
+  position: relative;
+  z-index: 9;
+  display: block;
+  width: 0.32rem;
+  height: 0.32rem;
+  float: left;
+  margin-right: 0.54rem;
+}
+.DevLink .link div a {
+  display: inline-block;
+  font-size: 0.22rem;
+  color: #333333;
+  background: url("../../imgs/arrow-page-links.png") no-repeat right 9px;
+  background-size: 19px 13px;
+  padding-right: 27px;
+  font-weight: 400;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.DevLink .link div a:hover {
+  background: url("../../imgs/arrow-page-links-h.png") no-repeat right 9px;
+  background-size: 19px 13px;
+  padding-right: 27px;
+  color: #1989fa;
+}

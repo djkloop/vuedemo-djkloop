@@ -1,0 +1,107 @@
+@charset "utf-8";
+/*footer*/
+.footer,
+.footer a {
+  color: #ffffff;
+  font-weight: 400;
+}
+.footer {
+  position: relative;
+  padding: 0.9rem 0;
+  font-size: 0.14rem;
+  background: #1d1d1d;
+}
+.footer a:hover {
+  color: #1989fa;
+}
+.footer .footer_center {
+  position: relative;
+  width: 10.6rem;
+  margin: 0 auto;
+}
+.footer .footer_center .footer_logo {
+  float: left;
+  width: 3.0rem;
+}
+.footer .footer_center .footer_logo a {
+  width: 0.64rem;
+  height: 0.64rem;
+  margin: 0 0.4rem 0 -0.2rem;
+  display: block;
+}
+.footer_nav li {
+  float: left;
+  width: 1.6rem;
+  margin: 0 0.2rem 0 0;
+}
+.footer_nav li a {
+  font-size: 0.16rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer_nav .sub_nav {
+  margin: 0.2rem 0 0 0;
+}
+.footer_nav .sub_nav li {
+  height: 0.43rem;
+  line-height: 0.43rem;
+}
+.footer_nav .sub_nav a {
+  font-size: 0.14rem;
+  color: #ffffff;
+  font-weight: 500;
+}
+.footer_nav .sub_nav a:hover {
+  color: #1989fa;
+}
+.copyright-info {
+  overflow: hidden;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  margin-top: 25px;
+  padding-top: 36px;
+}
+.copyright-info .copyright {
+  float: left;
+  margin-right: 30px;
+}
+.copyright-info ul {
+  float: left;
+  overflow: hidden;
+}
+.copyright-info ul li {
+  float: left;
+  border-right: 1px solid rgba(255, 255, 255, 0.4);
+  margin-right: 20px;
+  padding-right: 20px;
+  height: 14px;
+  line-height: 14px;
+}
+.copyright-info ul li.last {
+  border: none;
+}
+.copyright-info .ISO {
+  float: right;
+}
+.copyright-info .ISO .ISO_2017 {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background-image: url("../../imgs/iso27001.png");
+  background-repeat: no-repeat;
+  background-size: 30px 35px;
+  float: right;
+  margin-right: 20px;
+}
+.copyright-info .ISO .verify-logo {
+  display: block;
+  width: 30px;
+  height: 35px;
+  background: url("../../imgs/wp-content-themes-Earthshaker-1-images-kexinyun.png");
+  background-repeat: no-repeat;
+  background-size: 30px 35px;
+  float: right;
+}
+.web-record a {
+  font-size: 0.12rem;
+  margin-right: 0.12rem;
+}
+/*# sourceMappingURL=footer.css.map */

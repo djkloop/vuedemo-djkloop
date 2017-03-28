@@ -1,0 +1,63 @@
+@import "./computedColor.less";
+@import "./index.less";
+
+.eco-title {
+  text-align: center;
+  font:700 0.4rem/0.5rem 'Arial Black';
+  color:@defaultEcoloGycooPerationColor;
+  margin-bottom: 0.3rem;
+}
+
+.eco-sub_title {
+  font:400 0.2rem/0.28rem '';
+  color: @defaultEcoloGycooPerationColor_gary;
+  padding-bottom: 0.1rem;
+}
+
+.eco-res-title {
+  .h(80);
+  h2 {
+    .pos(relative);
+    .fs(24);
+    .lh(60);
+    margin: 0;
+    &::after {
+      content: "";
+      border-bottom: 1px solid #ddd;
+      position: absolute;
+      display: block;
+      top: 30px;
+      right: 0;
+      left: 155px;
+    }
+  }
+}
+
+.describe {
+  margin: 0 15px;
+  font: 400 16px/48px "";
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 48px;
+  text-align: center;
+  a{
+    color: #333;
+    position: relative;
+    padding: 5px 0;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #2C3F52;
+    }
+  }
+}
+
+.img-pos {
+  margin-bottom:0.25rem;
+  padding: 0 0.15rem;
+}

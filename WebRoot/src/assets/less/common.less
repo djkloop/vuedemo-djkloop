@@ -1,0 +1,46 @@
+.pos(@pos:fixed) {
+  position: @pos;
+}
+
+.trans(@timer:.3s,@all_ani:all,@ani:ease-in-out,@delay:0s){
+  -webkit-transition-property: @all_ani;
+  -moz-transition-property:@all_ani;
+  -o-transition-property: @all_ani;
+  transition-property: @all_ani;
+  -webkit-transition-duration: @timer;
+  -moz-transition-duration: @timer;
+  -o-transition-duration: @timer;
+  transition-duration: @timer;
+  -webkit-transition-timing-function: @ani;
+  -moz-transition-timing-function: @ani;
+  -o-transition-timing-function: @ani;
+  transition-timing-function: @ani;
+  -webkit-transition-delay:@delay;
+  -moz-transition-delay:@delay;
+  -o-transition-delay:@delay;
+  transition-delay:@delay;
+}
+
+.fl(@tag){
+  float: @tag;
+}
+
+.mg(@argus,...) {
+  margin:@argus;
+}
+
+.pd(@argus,...) {
+  padding:@argus;
+}
+
+/*cont块距离顶部70px*/
+.mt {
+  margin-top: 0.77rem;
+}
+
+/*清除浮动*/
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clearfloat{zoom:1}
+.center{position:relative;width: 10.6rem;margin:0 auto;clear: both;}
+/*图片自适应*/
+.img-res{ width: 100%; height: auto;max-width: 100%; display: block; }

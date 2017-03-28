@@ -1,0 +1,142 @@
+@charset "utf-8";
+/*footer*/
+@footer_text_color:#fff;
+@ftw:400;
+@ftsz:0.14rem;
+@footer_bg_color:#1d1d1d;
+@w:10.6rem;
+@import url(./common.less);
+.footer,
+.footer a {
+  color:@footer_text_color;
+  font-weight:@ftw;
+}
+
+.footer {
+  .pos(relative);
+  .pd(0.9rem 0);
+  font-size: @ftsz;
+  background: @footer_bg_color;
+  overflow: hidden;
+  top: 1.0rem;
+
+  a {
+    &:hover {
+      color:#1989fa;
+    }
+  }
+
+  .footer_center {
+    .pos(relative);
+    width: @w;
+    .mg(0 auto);
+
+    .footer_logo {
+      .fl(left);
+      width: 3.0rem;
+
+      a {
+        @h:0.64rem;
+        width:@h;
+        height:@h;
+        .mg(0 0.4rem 0 -0.2rem);
+        display: block;
+      }
+    }
+  }
+}
+
+.footer_nav {
+  @w:1.6rem;
+  li {
+    .fl(left);
+    width:@w;
+    .mg(0 0.2rem 0 0);
+
+    a {
+      font-size:(@ftsz + 0.02rem);
+      color:rgba(255,255,255,0.5);
+    }
+  }
+  .sub_nav {
+    .mg(0.2rem 0 0 0);
+
+    li {
+      @h:0.43rem;
+      height: @h;
+      line-height: @h;
+    }
+
+    a {
+      font-size: @ftsz;
+      color: @footer_text_color;
+      font-weight: (@ftw + 100);
+
+      &:hover {
+        color:#1989fa;
+      }
+    }
+  }
+}
+
+.copyright-info {
+  overflow: hidden;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  margin-top: 25px;
+  padding-top: 36px;
+
+  .copyright {
+    float: left;
+    margin-right: 30px;
+  }
+
+  ul {
+    float: left;
+    overflow: hidden;
+
+    li {
+      float: left;
+      border-right: 1px solid rgba(255, 255, 255, 0.4);
+      margin-right: 20px;
+      padding-right: 20px;
+      height: 14px;
+      line-height: 14px;
+    }
+
+    li.last {
+      border: none;
+    }
+  }
+
+  .ISO {
+    float: right;
+
+    .ISO_2017 {
+      display: block;
+      width: 35px;
+      height: 35px;
+      background-image: url(../../assets/imgs/iso27001.png);
+      background-repeat: no-repeat;
+      background-size: 30px 35px;
+      float: right;
+      margin-right: 20px;
+    }
+
+    .verify-logo {
+      display: block;
+      width: 30px;
+      height: 35px;
+      background-image: url(../../assets/imgs/wp-content-themes-Earthshaker-1-images-kexinyun.png);
+      background-repeat: no-repeat;
+      background-size: 30px 35px;
+      float: right;
+    }
+  }
+}
+
+.web-record {
+  a {
+    font-size: 0.12rem;
+    margin-right: 0.12rem;
+  }
+}

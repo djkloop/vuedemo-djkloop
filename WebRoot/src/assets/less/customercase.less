@@ -1,0 +1,129 @@
+@import "index.less";
+@import "computedColor.less";
+.customercase {
+    .pos_cs {
+        .mg(0.1rem 0 0.3rem);
+    }
+    .cs_h1 {
+        color: #fff;
+        float: left;
+        .mg(-0.5rem 0 0.3rem);
+    }
+  .content_text {
+    .fs(14);
+    color: #fff;
+    .lh(25);
+    .mg(0.3rem 0 0.4rem);
+    float: left;
+  }
+}
+
+.bg-05 {
+    background: url(../../imgs/05.jpg)no-repeat center bottom;
+    background-size: 100% 100%;
+}
+
+.clearMarginRepeat {
+  padding-top: 1px;
+}
+
+.case-liner {
+  background: url(../../imgs/line.png)no-repeat;
+  position: relative;
+  .h(11);
+  .mg(0.4rem auto);
+  background-size: cover;
+  background-size: 1060px 11px;
+}
+
+.projectBg {
+  .fl(left);
+  ul {
+    .pd(0.2rem 0 0 0.2rem);
+  }
+  p {
+    color:@defaultCustomerCaseTextColor;
+    .fs(14);
+    .lh(24);
+    .mg(0.2rem 0 0.5rem);
+  }
+  li {
+    list-style: square;
+    color:@defaultCustomerCaseTextColor;
+    .fs(14);
+    margin-bottom: 0.13rem;
+    a {
+      color:@defaultCustomerCaseTextColor;
+      margin-left: 0.10rem;
+      &:hover {
+        color:@heliperDev;
+      }
+    }
+  }
+}
+
+.Slider-case {
+  margin-top: -116px;
+  position: relative;
+  overflow-x: hidden;
+  .btn-case-next {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    top: 50%;
+    margin-top: -22px;
+    right: 0px;
+    z-index: 99;
+    cursor: pointer;
+    background: #1989fa url(../../imgs/arrow-right-case.png) no-repeat 50% 50%;
+    background-size: 19px 13px;
+  }
+  
+  .Slider-warp {
+    ul {
+      position: relative;
+    }
+    li {
+      .fl(left);
+      .pos(relative);
+      .w(340);
+      .h(230);
+      .pd(0 0.2rem 0 0);
+      
+      img {
+        display: block;
+        .w(340);
+        .h(230);
+        cursor: pointer;
+        transition:all .3s ease-in-out;
+        border-radius:3px;  
+        &:hover {
+          box-shadow:1px 10px 20px 5px rgba(0, 0, 0, 0.3);
+          transform:translate3d(-10px,0,10px);
+      }
+      }
+    }
+  }
+}
+
+.case {
+    li {
+        .fl(left);
+        .mg(0 0.2rem 0.2rem 0);
+        .w(140);
+        .h(140);
+        .lh(140);
+        background:@defaultCustomerCaseBgColor;
+        text-align: center;
+        a {
+            .w(140);
+            .h(140);
+            background:@defaultCustomerCaseAcolor;
+            display: table-cell;
+            vertical-align: middle;
+        }
+        img {
+            vertical-align: middle;
+        }
+    }
+}

@@ -1,0 +1,113 @@
+@import "./computedColor.less";
+@import "./index.less";
+
+#Price {
+  .price-p {
+    .fs(18);
+    color: @HelementColor;
+    .lh(32);
+    .mg(0.3rem 0 0.4rem);
+  }
+}
+
+.pad-clas {
+  h2 {
+    font-size: 0.34rem;
+    line-height: 0.43rem;
+    font-weight: 400;
+    color: #333333;
+    margin: 10px 0 26px 0;
+  }
+  h4 {
+    font-size: 0.22rem;
+    color: #666666;
+    font-weight: 300;
+    line-height: 0.3rem;
+  }
+  p.content_text {
+    font-size: 0.16rem;
+    color: #333333;
+    font-weight: 400;
+    width: 6.4rem;
+    line-height: 0.28rem;
+    margin: 0;
+  }
+  .new_register {
+    margin: 0.68rem 0 0.59rem 0;
+    .margb {
+      margin: 0 0 0.52rem;
+    }
+  }
+  .regsiter_row {
+    .w_middle {
+      padding: 0 90px;
+      border-left: 1px solid #e5e5e5;
+      border-right: 1px solid #e5e5e5;
+    }
+
+    span {
+      font-size: 0.14rem;
+      color: #666666;
+    }
+
+    li {
+      float: left;
+      width: 25%;
+      text-align: left;
+      &.right_text {
+        float: right;
+      }
+    }
+  }
+}
+
+.DevLink {
+  .link {
+    div {
+      flex: 1;
+      .h(32);
+      .lh(32);
+      .pd(0.34rem 0 0.34rem 0.34rem);
+      .mg(0 0.2rem 0 0);
+      .pos(relative);
+      &:after {
+        content: '';
+        .pos(absolute);
+        .w(100);
+        .h(100);
+        left:0;
+        top:0;
+        background:@liAfterBgColor;
+      }
+      img {
+        .pos(relative);
+        z-index: 9;
+        display: block;
+        .w(32);
+        .h(32);
+        float: left;
+        margin-right: 0.54rem;
+      }
+      a {
+        display: inline-block;
+        .fs(22);
+        color: @HelementColor;
+        background: url(../../imgs/arrow-page-links.png) no-repeat right 9px;
+        background-size: 19px 13px;
+        padding-right: 27px;
+        font-weight: 400;
+        -webkit-transition: all .3s linear;
+        -moz-transition: all .3s linear;
+        -ms-transition: all .3s linear;
+        -o-transition: all .3s linear;
+        transition: all .3s linear;
+        &:hover {
+          background: url(../../imgs/arrow-page-links-h.png) no-repeat right 9px;
+          background-size: 19px 13px;
+          padding-right: 27px;
+          color: @heliperDev;
+        }
+      }
+    }
+  }
+}

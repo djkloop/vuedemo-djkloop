@@ -1,0 +1,249 @@
+@import "./property.less";
+@import "./computedColor.less";
+@import "./common.less";
+
+.fs(@px) {
+    font-size: unit(@px / 100,rem);
+};
+
+.w(@px) {
+    width: unit(@px / 100,rem);
+}
+
+.h(@px) {
+    height: unit(@px / 100,rem);
+}
+
+.lh(@px) {
+    line-height: unit(@px / 100,rem);
+}
+
+.b-t(@top, ...) {
+    border-top: @top;
+}
+
+.b-r(@right, ...) {
+    border-right: @right;
+}
+
+.b-l(@left, ...) {
+    border-left: @left;
+}
+
+.b-b(@bottom, ...) {
+    border-bottom: @bottom;
+}
+
+.pdtb-110280 {
+    .pd(1.11rem 0 2.8rem);
+}
+
+.pdtb-110110 {
+    .pd(1.11rem 0 1.10rem);
+}
+
+.pdt-110 {
+    .pd(1.11rem 0 0);
+}
+
+.pdtb-11055 {
+    .pd(1.10rem 0.55rem);
+}
+
+.pdtb-5555 {
+    .pd(0.55rem 0 0.55rem);
+}
+
+.pdtb-55110 {
+    .pd(0.55rem 1.1rem);
+}
+
+.pdb-280 {
+    .pd(0 0 2.8rem);
+}
+
+.pdb-110 {
+    .pd(0 0 1.1rem);
+}
+
+.mgtb-1025 {
+    .mg(0.1rem 0 0.25rem);
+}
+
+.bg-white {
+    background:@defaultBgWhiteColor;
+}
+
+.bg-gray {
+    background-color: @defaultBgGrayColor;
+}
+
+.bg-gray-food {
+    background-color: @defaultBgFoodGrayColor;
+}
+
+.bg-red {
+    background-color: @defaultBgRedColor;
+}
+
+.bg-black {
+    background-color:@defaultBgBlackColor;
+}
+
+.bg-black-food {
+    background-color:@defaultBgBlackFoodColor;
+}
+
+a.btn-normal {
+    height: 0.44rem;
+    line-height: 0.45rem;
+    .pd(0 0.3rem);
+}
+
+a.btn-raduis {
+    border-radius: 2px;
+}
+
+a.btn {
+    display: inline-block;
+    .fs(14);
+    color: #fff;
+    background: #1989fa;
+    position: relative;
+    z-index: 56;
+
+    &::before {
+        content: "";
+        position: absolute;
+        z-index: 0;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        -webkit-transition: 0.4s ease-in-out;
+        transition: 0.4s ease-in-out;
+        -ms-transform: scale(1.5,1.5);
+        -webkit-transform: scale(1.5,1.5);
+        transform: scale(1.5,1.5);
+    }
+    &:hover {
+        &:before {
+            content: 'VueDemo';
+            text-align: center;
+            background-color: #e7232e;
+            opacity: 1;
+            z-index: 0;
+            color: #fff;
+            -webkit-transform: scale(1,1);
+            -ms-transform: scale(1,1);
+            transform: scale(1,1);
+        }
+
+    }
+}
+
+a.btn_gold {
+    background: #f8c695;
+    color: rgba(0,0,0,.6);
+    display: inline-block;
+    .fs(14);
+    position: relative;
+    z-index: 56;
+    
+    &::before {
+        content: "";
+        position: absolute;
+        z-index: 0;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        -webkit-transition: 0.4s ease-in-out;
+        transition: 0.4s ease-in-out;
+        -ms-transform: scale(1.5,1.5);
+        -webkit-transform: scale(1.5,1.5);
+        transform: scale(1.5,1.5);
+    }
+    &:hover {
+        &:before {
+            content: 'VueDemo';
+            text-align: center;
+            background-color: #2BD8AE;
+            opacity: 1;
+            z-index: 0;
+            color: #fff;
+            border-radius: 2px;
+            -webkit-transform: scale(1,1);
+            -ms-transform: scale(1,1);
+            transform: scale(1,1);
+        }
+    }
+}
+
+a.btn_text_1 {
+    &:hover {
+        &:before {
+            content: 'djkloop制作';
+        }
+    }
+}
+
+a.btn_text_2 {
+    &:hover {
+        &:before {
+            content: '新疆印象';
+        }
+    }
+}
+
+a.btn_text_3 {
+    &:hover {
+        &:before {
+            content: '团结模范';
+        }
+    }
+}
+
+a.btn_text_4 {
+    &:hover {
+        &:before {
+            content: '特色文化';
+        }
+    }
+}
+
+a.btn_text_5 {
+    &:hover {
+        &:before {
+            content: '美食发现';
+        }
+    }
+}
+
+.router-link-active {
+    color: @heliperDev;
+}
+
+.flex {
+    display: -moz-box;
+    /* Firefox */
+    display: -ms-flexbox;
+    /* IE10 */
+    display: -webkit-box;
+    /* Safari */
+    display: -webkit-flex;
+    /* Chrome, WebKit */
+    display: flexbox;
+    display: flex;
+}
+
+section {}
+
+body,
+html {
+    width: 100%;
+    font-size: 100px;
+    height: 100%;
+}

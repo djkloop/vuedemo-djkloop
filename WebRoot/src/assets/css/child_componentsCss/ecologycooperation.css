@@ -1,0 +1,182 @@
+/* productService */
+/*h1~h6*/
+/*before*/
+/*Helper*/
+/*Question*/
+/*DevLink*/
+/*customercase*/
+/*ecologycooperation*/
+.f-r {
+  float: right;
+}
+.f-l {
+  float: left;
+}
+.d-ib {
+  display: inline-block;
+}
+.d-b {
+  display: block;
+}
+.va-m {
+  vertical-align: middle;
+}
+.clearfix:after {
+  /*最简方式*/
+  content: '';
+  display: block;
+  clear: both;
+}
+.clearfix {
+  /*兼容 IE*/
+  zoom: 1;
+}
+/*cont块距离顶部70px*/
+.mt {
+  margin-top: 0.77rem;
+}
+/*清除浮动*/
+.clearfloat:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+}
+.clearfloat {
+  zoom: 1;
+}
+.center {
+  position: relative;
+  width: 10.6rem;
+  margin: 0 auto;
+  clear: both;
+}
+/*图片自适应*/
+.img-res {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+.pdtb-110280 {
+  padding: 1.11rem 0 2.8rem;
+}
+.pdtb-110110 {
+  padding: 1.11rem 0 1.1rem;
+}
+.pdt-110 {
+  padding: 1.11rem 0 0;
+}
+.pdtb-11055 {
+  padding: 1.1rem 0.55rem;
+}
+.pdtb-5555 {
+  padding: 0.55rem 0 0.55rem;
+}
+.pdb-280 {
+  padding: 0 0 2.8rem;
+}
+.pdb-110 {
+  padding: 0 0 1.1rem;
+}
+.mgtb-1025 {
+  margin: 0.1rem 0 0.25rem;
+}
+.bg-white {
+  background-color: #ffffff;
+}
+.bg-gray {
+  background-color: #f8f8f8;
+}
+a.btn-normal {
+  height: 0.44rem;
+  line-height: 0.45rem;
+  padding: 0 0.3rem;
+}
+a.btn {
+  display: inline-block;
+  font-size: 0.14rem;
+  color: #fff;
+  background: #1989fa;
+}
+a.btn:hover {
+  color: #fff;
+}
+.router-link-active {
+  color: #1989fa;
+}
+.flex {
+  display: -moz-box;
+  /* Firefox */
+  display: -ms-flexbox;
+  /* IE10 */
+  display: -webkit-box;
+  /* Safari */
+  display: -webkit-flex;
+  /* Chrome, WebKit */
+  display: flexbox;
+  display: flex;
+}
+html,
+body {
+  width: 100%;
+  font-size: 100px;
+  height: 100%;
+}
+.eco-title {
+  text-align: center;
+  font: 700 0.4rem/0.5rem 'Arial Black';
+  color: #333333;
+  margin-bottom: 0.3rem;
+}
+.eco-sub_title {
+  font: 400 0.2rem/0.28rem '';
+  color: #808080;
+  padding-bottom: 0.1rem;
+}
+.eco-res-title {
+  height: 0.8rem;
+}
+.eco-res-title h2 {
+  position: relative;
+  font-size: 0.24rem;
+  line-height: 0.6rem;
+  margin: 0;
+}
+.eco-res-title h2::after {
+  content: "";
+  border-bottom: 1px solid #ddd;
+  position: absolute;
+  display: block;
+  top: 30px;
+  right: 0;
+  left: 155px;
+}
+.describe {
+  margin: 0 15px;
+  font: 400 16px/48px "";
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 48px;
+  text-align: center;
+}
+.describe a {
+  color: #333;
+  position: relative;
+  padding: 5px 0;
+}
+.describe a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #2C3F52;
+}
+.img-pos {
+  margin-bottom: 0.25rem;
+  padding: 0 0.15rem;
+}
