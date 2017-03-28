@@ -1,18 +1,46 @@
 @import "./computedColor.less";
 @import "./index.less";
 
+.bg-04 {
+    background: url(../../imgs/04.jpg)no-repeat center bottom;
+    background-size: cover;
+    height:5rem;
+}
+
+.bg-03 {
+    background: url(../../imgs/03.jpg)no-repeat center bottom;
+    background-size: cover;
+    height:5rem;
+}
+
+.price-img-h1 {
+    line-height: 260px;
+}
+
+.xz-h2 {
+    margin-top: -150px;
+}
+
+.xz-describe {
+    padding: 0.5rem 0;
+    p {
+        .fs(16);
+        line-height: 0.35rem;
+    }
+}
+
 #Price {
   .price-p {
     .fs(18);
     color: @HelementColor;
     .lh(32);
-    .mg(0.3rem 0 0.4rem);
+    .mg(0.3rem 0 0.4rem 0.85rem);
   }
 }
 
 .pad-clas {
   h2 {
-    font-size: 0.34rem;
+    font-size: 0.30rem;
     line-height: 0.43rem;
     font-weight: 400;
     color: #333333;
@@ -33,7 +61,7 @@
     margin: 0;
   }
   .new_register {
-    margin: 0.68rem 0 0.59rem 0;
+    margin: 0.38rem 0 0.59rem 0;
     .margb {
       margin: 0 0 0.52rem;
     }
@@ -41,8 +69,6 @@
   .regsiter_row {
     .w_middle {
       padding: 0 90px;
-      border-left: 1px solid #e5e5e5;
-      border-right: 1px solid #e5e5e5;
     }
 
     span {

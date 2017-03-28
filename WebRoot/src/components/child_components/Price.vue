@@ -1,139 +1,120 @@
 <template>
 	<section class="mt" id="Price">
-		<section class="Price pdtb-110110 bg-gray">
+		<section class="Price pdtb-110110 bg-04">
 			<div class="center">
-				<h1 class="col-55">七牛云价格方案</h1>
-				<p class="price-p ftw-400 col-70">七牛云为您提供的不止优秀的产品，还有极具竞争力的产品定价。</p>
+				<h1 class="col-55">新疆民族团结一家亲</h1>
+				<p class="price-p ftw-400 col-70">民族团结是中华民族伟大复兴的强大动力。实现中华民族伟大复兴，是近代以来中国人民不懈追求的目标。</p>
+				<p class="price-p ftw-400 col-70">民族团结是一种精神、一种思想整合力量、一种追求，它对凝聚人心、整合社会起着重要作用。我国是一个统一的多民族国家。民族团结关系到中华民族的生死存亡，关系到国家的安危和各族人民的根本利益。</p>
 			</div>
 		</section>
-		<section class="price-tabs pdtb-5555">
+		<section class="price-tabs pdtb-110110">
 			<div class="center">
+				<div class="price-img clearfix">
+					<h1 class="f-l price-img-h1">新疆道德模范人物</h1>
+					<img class="f-r" src="../../assets/imgs/wd.jpg"/>
+				</div>
 				<el-tabs class="tabs" id="tabs" v-model="activeName" @tab-click="handleClick">
-					<el-tab-pane label="乌鲁木齐" class="clearfloat" name="first">
+					<el-tab-pane label="助人为乐" class="clearfloat" name="first">
 						<div class="tabs-pos col-50">
-							<h4 class="ftw-400">乌鲁木齐</h4>
+							<h4 class="ftw-400">助人为乐</h4>
 							<p class="ftw-400">
-								乌鲁木齐天山大峡谷位于乌鲁木齐南山板房沟乡走进天山大峡谷,您可以感受到陡峭险峻的山峰、神秘的原始森林、碧绿的山谷草原、 壮观的雪岭冰川、秀美的湖光山色、幽深的山涧峡谷、奔腾的溪流、浓郁的哈萨克风情。
+								评为全国助人为乐模范的阿图什市上阿图什镇亚维勒克双语幼儿园园长周丽娜,从辽宁沈阳到新疆阿图什,从一句维吾尔语都不懂到成为当地维吾尔族孩子离不开的双语教师。
 							</p>
 						</div>
 						<div class="tabs-img col-33">
-							<img src="../../assets/imgs/Urumqi.jpg" alt="">
+							<img src="../../assets/imgs/zln.jpg" alt="">
 						</div>
 					</el-tab-pane>
-					<el-tab-pane label="吐鲁番" class="clearfloat" name="second">\
+					<el-tab-pane label="见义勇为" class="clearfloat" name="second">\
 						<div class="tabs-pos col-50">
-							<h4 class="ftw-400">吐鲁番</h4>
+							<h4 class="ftw-400">见义勇为</h4>
 							<p class="ftw-400">
-								葡萄沟于吐鲁番市东北7公里处,南北走向,横穿火焰山,沟内流水潺潺,瓜果飘香,凉爽宜人,是吐鲁番旅游避暑胜地的好去处。 火焰山位于吐鲁番盆地的中部盆地,神话小说《西游记》里有孙悟空三借芭蕉扇扑灭火焰山烈火的故事讲述就是火焰山。
+								评为全国见义勇为模范的和田市残疾人工贸发展中心董事长阿不力孜·买买提尼牙孜,24年来在火海中、公路边先后救助了70多名遇险群众。
 							</p>
 						</div>
 						<div class="tabs-img col-33">
-							<img src="../../assets/imgs/Turpan.jpg" alt="">
+							<img src="../../assets/imgs/ablz.jpg" alt="">
 						</div>
 					</el-tab-pane>
-					<el-tab-pane label="阿克苏" class="clearfloat" name="third">
+					<el-tab-pane label="孝老爱亲" class="clearfloat" name="third">
 						<div class="tabs-pos col-50">
-							<h4 class="ftw-400">阿克苏</h4>
+							<h4 class="ftw-400">孝老爱亲</h4>
 							<p class="ftw-400">
-								托木尔大峡谷是中国西部最震撼的地质奇观、中国最大的岩盐喀斯特地质胜景,媲美美国科罗拉多大峡谷。 托木尔大峡谷有中国罕见的远古岩盐地质绝景、中国西部奇特的雅丹地质怪景、中国独有的巨型岩溶蚀地质秘境, 堪称新疆“活的地质演变史博物馆。
+								评为全国孝老爱亲模范的兵团第三师四十一团社区政工员陈明,20多年来克服重重困难,照顾瘫痪在床、患重病的父亲,父子俩不离不弃、血脉相连,书写了人间大爱。
 							</p>
 						</div>
 						<div class="tabs-img col-33">
-							<img src="../../assets/imgs/aksu.jpg" alt="">
+							<img src="../../assets/imgs/cm.jpg" alt="">
 						</div>
 					</el-tab-pane>
-					<el-tab-pane label="阿勒泰" class="clearfloat" name="fourth">
+					<el-tab-pane label="敬业奉献" class="clearfloat" name="fourth">
 						<div class="tabs-pos col-50">
-							<h4 class="ftw-400">阿勒泰</h4>
+							<h4 class="ftw-400">敬业奉献</h4>
 							<p class="ftw-400">
-								喀纳斯沿途欣赏驼劲湾、浪漫风情白桦林、神奇的卧龙湾、开阔的神仙湾、最富特色的月亮湾、野鸭出没的鸭泽湖。 贾登峪位于喀纳斯湖东南35公里处,它是一块长约2公里,宽约1.5公里的山间盆地,那里水草丰美,有牧民定居。
+评为全国敬业奉献模范的尉犁县兴平乡达西村党支部书记沙吾尔·芒力克,带领村民把达西村从一个昔日生活靠救济、生产靠贷款的贫困村建成“口袋鼓囊囊、精神亮堂堂”的“南疆第一村”。
 							</p>
 						</div>
 						<div class="tabs-img col-33">
-							<img src="../../assets/imgs/Aletai.jpg" alt="">
-						</div>
-					</el-tab-pane>
-					<el-tab-pane label="伊犁" class="clearfloat" name="fifth">
-						<div class="tabs-pos col-50">
-							<h4 class="ftw-400">伊犁</h4>
-							<p class="ftw-400">
-								解忧公主薰衣草园,是中国唯一的薰衣草主产地,有“中国薰衣草之乡”的美称。 赛里木湖海拔2073米的赛里木湖湖水清碧如镜,湖畔群山环绕,松柏参天,雪峰倒影;春、夏、秋季湖滨芳草如茵,风光秀丽。 果子沟风景秀丽,景观奇异,历来被视为新疆的名胜之地,素有伊犁“第一景”之美称。
-							</p>
-						</div>
-						<div class="tabs-img col-33">
-							<img src="../../assets/imgs/lli.jpg" alt="">
-						</div>
-					</el-tab-pane>
-					<el-tab-pane label="喀什" name="sixth">
-						<div class="tabs-pos col-50">
-							<h4 class="ftw-400">喀什</h4>
-							<p class="ftw-400">
-								阿帕霍加墓又名香妃墓,始建于公元1640年前后,距今已350年,是一座典型的伊斯兰式古老的陵墓建筑。 喀什噶尔-----新疆唯一的国家级历史文化名城,参观户您可以亲眼目睹到传统维吾尔居民家庭生活、民族风情、民族手工艺民族家访可以让您品尝到丰富的民族饮食。
-							</p>
-						</div>
-						<div class="tabs-img col-33">
-							<img src="../../assets/imgs/Kashgar.jpg" alt="">
+							<img src="../../assets/imgs/swe.jpg" alt="">
 						</div>
 					</el-tab-pane>
 				</el-tabs>
 			</div>
 		</section>
-		<section class="pad-clas bg-gray pdtb-110110">
+		<section class="pdtb-110110 bg-gray">
 			<div class="center">
-				<h4>免费注册，即可享有</h4>
-				<h2 class="col-65">给新用户的好礼</h2>
+				<div class="clearfix">
+					<img class="f-l" src="../../assets/imgs/girl.jpg"/>
+					<h2 class="f-r xz-h2">习总书记:民族团结是新疆发展根本基石</h2>
+				</div>
+				<div class="xz-describe">
+					<p>
+						习总书指出,我国是统一的多民族国家，一部中华民族史就是一部各民族团结凝聚、共同奋进的历史。
+						民族团结是各族人民的生命线，是新疆发展进步的根本基石，也是13亿多中国人民的共同意志。
+						要维护民族团结，加强军政团结、军民团结、警民团结、兵地团结，筑牢各族人民共同维护祖国统一、维护民族团结、维护社会稳定的钢铁长城。
+						要全面贯彻党的民族政策，高举各民族大团结旗帜，引导各族群众增强对伟大祖国、中华民族、中华文化、中国共产党、中国特色社会主义的认同，像爱护自己的眼睛一样爱护民族团结，像珍视自己的生命一样珍视民族团结，像石榴籽那样紧紧抱在一起。要持续开展好“民族团结一家亲”和民族团结联谊活动，把民族团结落实到日常生活工作学习中，贯穿到学校教育、家庭教育、社会教育各环节各方面，让民族团结之花常开长盛。
+					</p>
+				</div>
+			</div>
+		</section>
+		<section class="pdtb-110110 bg-white">
+			<div class="center">
+				<div class="clearfix">
+					<img class="f-r" src="../../assets/imgs/cqg.jpg"/>
+					<h2 class="f-l xz-h2">陈全国:民族团结一家亲</h2>
+				</div>
+				<div class="xz-describe">
+					<p>
+						陈全国指出，要充分认识开展“民族团结一家亲”活动的重大意义，统一思想、统一行动。
+						在全区开展“民族团结一家亲”活动，是贯彻落实以习近平同志为总书记的党中央确定的社会稳定和长治久安总目标的重要举措，是贯彻落实习近平总书记重要讲话精神的实际步骤，是进一步巩固发展民族团结的有力抓手，是被实践证明了的促进各民族交往交流交融的成功经验，是做好群众工作的必然要求，是推进脱贫攻坚的有效途径，是转变干部作风的现实需要。
+						要充分认识做好民族团结工作的重要性和必要性，切实增强开展“民族团结一家亲”活动的责任感和紧迫感。
+					</p>
+				</div>
+			</div>
+		</section>
+		<section class="pad-clas bg-03 pdtb-110110">
+			<div class="center">
+				<h4>大美新疆，道德高地</h4>
+				<h2 class="col-65">新疆精神,道德模范激扬正能量</h2>
 				<p class="content_text">
-					立即注册成为七牛云用户，并完成实名认证，即可成为标准用户。成为标准用户您将获得：10 GB 永久免费空间，每月 10 GB 下载流量等诸多免费额度。
+					层出不穷的道德模范代表着新疆人的价值追求，他们是爱国爱疆、团结奉献、勤劳互助、开放进取“新疆精神”的集中体现。
+					他们的感人事迹生动地展现着新疆精神文明建设的丰硕成果，展示着新时期新疆人的新形象。
+					道德模范评选活动已经成为促进我区民族团结，推进长治久安、社会和谐稳定的有力抓手。
 				</p>
 				<div class="new_register">
 					<div class="regsiter_row margb clearfloat">
 						<li>
-							<span>永久免费空间</span>
-							<h2>10 GB</h2>
+							<span>道德模范评选50人选票达</span>
+							<h2>551.9461万</h2>
 						</li>
 						<li class="w_middle">
-							<span>每月 HTTP 下载流量（国内＋海外）</span>
-							<h2>10 GB + 10 GB</h2>
+							<span>我评议最美新疆人活动,全年投票总数达</span>
+							<h2>4281万</h2>
 						</li>
 						<li class="right_text">
-							<span>每月 Put / Delete</span>
-							<h2>10 万次</h2>
+							<span>31省中当选道德模范人数</span>
+							<h2>新疆居全国之首</h2>
 						</li>
-					</div>
-					<div class="regsiter_row clearfloat">
-						<li>
-							<span>每月 get</span>
-							<h2>100 万次</h2>
-						</li>
-						<li class="w_middle">
-							<span>每月 MPS</span>
-							<h2>20 元</h2>
-						</li>
-						<li class="right_text">
-							<span>每月 m0c1</span>
-							<h2>750 小时</h2>
-						</li>
-					</div>
-				</div>
-				<router-link class="btn btn-normal btn_text_3" to="/home/index">
-					立即免费体验
-				</router-link>
-			</div>
-		</section>
-		<section class="DevLink pdtb-110110">
-			<div class="center">
-				<div class="link flex">
-					<div>
-						<img src="../../assets/imgs/icon-developer-community.png" alt="">
-						<a href="javascript:;">开发者中心</a>
-					</div>
-					<div>
-						<img src="../../assets/imgs/icon-customer-case.png" alt="">
-						<a href="javascript:;">客户案例</a>
-					</div>
-					<div>
-						<img src="../../assets/imgs/icon-product-price.png" alt="">
-						<a href="javascript:;">产品价格</a>
 					</div>
 				</div>
 			</div>
