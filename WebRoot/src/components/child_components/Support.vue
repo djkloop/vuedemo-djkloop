@@ -103,14 +103,14 @@
 			<div class="food_pos center pdtb-110110">
 				<div class="food_text_center col-100">
 					<h1 class="food_text_center_h1">
-        				联系我们
+        				新疆美食
         			</h1>
 					<p class="food_text_center_p">
-						我们随时为您的所有购买环节提供帮助,从售前到售后,
-						通过阿里旺旺聊天获得支持。
+						新疆是一个多民族的聚居区,这片土地上具有13个民族,人口1963.11万人。
+						在这民族众多的地区,有着丰富而又独特的饮食文化,这些饮食文化鲜明地反映了新疆农牧区和多民族的特色。
 					</p>
 					<p class="food_text_center_p">
-						<a class="btn btn-normal btn-raduis btn_text_5" href="javascript:;">联系支持</a>
+						<a class="btn btn-normal btn-raduis btn_text_5" href="javascript:;">更多美食</a>
 					</p>
 				</div>
 			</div>
@@ -121,17 +121,15 @@
 					<div class="col f-l">
 						<img src="../../assets/imgs/food_8.jpg" alt="" />
 						<div class="bg-black-food col-100 col_text_box">
-							<h2 class="col_text_h2">WEILONG | 香辣卤藕</h2>
-							<p class="col_text_p">香脆颠覆感官</p>
-							<span class="col_text_span"><em>24.98RMB</em> | 180g*2份</span>
+							<h2 class="col_text_h2">面类 | 新疆拌面</h2>
+							<p class="col_text_p">搭配菜品丰富,面筋道利入口</p>
 						</div>
 					</div>
 					<div class="col f-r">
 						<img src="../../assets/imgs/food_9.jpg" alt="" />
 						<div class="bg-black-food col-100 col_text_box">
-							<h2 class="col_text_h2">WEILONG | 香辣卤藕</h2>
-							<p class="col_text_p">香脆颠覆感官</p>
-							<span class="col_text_span"><em>24.98RMB</em> | 180g*2份</span>
+							<h2 class="col_text_h2">淀粉类 | 凉皮</h2>
+							<p class="col_text_p">麻辣,酸甜,香辣</p>
 						</div>
 					</div>
 				</div>
@@ -139,17 +137,15 @@
 					<div class="col f-l">
 						<img src="../../assets/imgs/food_6.jpg" alt="" />
 						<div class="bg-black-food col-100 col_text_box">
-							<h2 class="col_text_h2">WEILONG | 香辣卤藕</h2>
-							<p class="col_text_p">香脆颠覆感官</p>
-							<span class="col_text_span"><em>24.98RMB</em> | 180g*2份</span>
+							<h2 class="col_text_h2">面类 | 馕</h2>
+							<p class="col_text_p">日常必备,简单方便</p>
 						</div>
 					</div>
 					<div class="col f-r">
 						<img src="../../assets/imgs/food_7.jpg" alt="" />
 						<div class="bg-black-food col-100 col_text_box">
-							<h2 class="col_text_h2">WEILONG | 香辣卤藕</h2>
-							<p class="col_text_p">香脆颠覆感官</p>
-							<span class="col_text_span"><em>24.98RMB</em> | 180g*2份</span>
+							<h2 class="col_text_h2">肉类 | 新疆架子肉</h2>
+							<p class="col_text_p">色泽金黄,鲜嫩可口,肉香四溢</p>
 						</div>
 					</div>
 				</div>
