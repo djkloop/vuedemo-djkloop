@@ -15,11 +15,11 @@
                 </div>
                 <div class="col-30 f-l img-pos" v-for="item in imgList">
                     <div class="img-list" >
-                        <a class="img-a" :href=item.aHerf>
+                        <a class="img-a" :href=item.aHerf target="_blank">
                             <img class="img-res" :src=item.imgSrc alt="">
                         </a>
                         <h2 class="describe">
-                            <a :href=item.aHerf>{{item.describe}}</a>
+                            <a :href=item.aHerf target="_blank">{{item.describe}}</a>
                         </h2>
                     </div>
                 </div>
@@ -48,20 +48,20 @@
         data(){
             return {
                 imgList:[
-                    {aHerf:'javascript:;',imgSrc:'../src/assets/imgs/dbz.jpg',describe:'七牛娱乐产业支持计划'},
-                    {aHerf:'javascript:;',imgSrc:'../src/assets/imgs/tc.jpg',describe:'七牛娱乐产业支持计划'},
-                    {aHerf:'javascript:;',imgSrc:'../src/assets/imgs/nlt.jpg',describe:'七牛娱乐产业支持计划'},
-                    {aHerf:'javascript:;',imgSrc:'../src/assets/imgs/xyc.bmp',describe:'七牛娱乐产业支持计划'},
-                    {aHerf:'javascript:;',imgSrc:'../src/assets/imgs/tsdxg.jpg',describe:'七牛娱乐产业支持计划'},
-                    {aHerf:'javascript:;',imgSrc:'../src/assets/imgs/kns.jpg',describe:'七牛娱乐产业支持计划'},
-                    {aHerf:'javascript:;',imgSrc:'../src/assets/imgs/kkth.jpg',describe:'七牛娱乐产业支持计划'},
-                    {aHerf:'javascript:;',imgSrc:'../src/assets/imgs/bhb.jpg',describe:'七牛娱乐产业支持计划'},
-                    {aHerf:'javascript:;',imgSrc:'../src/assets/imgs/wcw.jpg',describe:'七牛娱乐产业支持计划'}
+                    {aHerf:'http://baike.baidu.com/item/%E6%96%B0%E7%96%86%E5%9B%BD%E9%99%85%E5%A4%A7%E5%B7%B4%E6%89%8E?sefr=enterbtn',imgSrc:'../src/assets/imgs/dbz.jpg',describe:'新疆国际大巴扎'},
+                    {aHerf:'http://baike.baidu.com/item/%E6%96%B0%E7%96%86%E5%A4%A9%E6%B1%A0?sefr=enterbtn',imgSrc:'../src/assets/imgs/tc.jpg',describe:'新疆天池国家五A级风景区'},
+                    {aHerf:'http://baike.baidu.com/item/%E9%82%A3%E6%8B%89%E6%8F%90%E8%8D%89%E5%8E%9F?sefr=enterbtn',imgSrc:'../src/assets/imgs/nlt.jpg',describe:'新疆那拉提国家五A级风景区'},
+                    {aHerf:'http://baike.baidu.com/item/%E4%BC%8A%E5%B8%95%E5%B0%94%E6%B1%97%E8%96%B0%E8%A1%A3%E8%8D%89?sefr=enterbtn',imgSrc:'../src/assets/imgs/xyc.bmp',describe:'新疆伊犁薰衣草'},
+                    {aHerf:'http://baike.baidu.com/item/%E5%A4%A9%E5%B1%B1%E5%A4%A7%E5%B3%A1%E8%B0%B7/14836178?fr=aladdin',imgSrc:'../src/assets/imgs/tsdxg.jpg',describe:'新疆天山大峡谷国家五A级风景区'},
+                    {aHerf:'http://baike.baidu.com/item/%E5%96%80%E7%BA%B3%E6%96%AF%E9%A3%8E%E6%99%AF%E5%8C%BA?fromtitle=%E6%96%B0%E7%96%86%E5%96%80%E7%BA%B3%E6%96%AF&fromid=397230&type=syn&sefr=enterbtn',imgSrc:'../src/assets/imgs/kns.jpg',describe:'新疆喀纳斯五A级景区'},
+                    {aHerf:'http://baike.baidu.com/item/%E5%8F%AF%E5%8F%AF%E6%89%98%E6%B5%B7%E9%A3%8E%E6%99%AF%E5%8C%BA/3221700?sefr=enterbtn',imgSrc:'../src/assets/imgs/kkth.jpg',describe:'新疆可可托海国家五A级风景区'},
+                    {aHerf:'http://baike.baidu.com/item/%E7%99%BD%E5%93%88%E5%B7%B4%E6%9D%91/4782768?sefr=enterbtn',imgSrc:'../src/assets/imgs/bhb.jpg',describe:'新疆白哈巴风景区'},
+                    {aHerf:'http://www.baike.com/wiki/%E4%BA%94%E5%BD%A9%E6%B9%BE',imgSrc:'../src/assets/imgs/wcw.jpg',describe:'新疆五彩湾'}
                 ],
                 imgList2:[
-                    {aHerf:'javascript:;',imgSrc:'../src/assets/imgs/n_ht.jpg',describe:'七牛娱乐产业支持计划'},
-                    {aHerf:'javascript:;',imgSrc:'../src/assets/imgs/n_hyl.jpg',describe:'七牛娱乐产业支持计划'},
-                    {aHerf:'javascript:;',imgSrc:'../src/assets/imgs/n_klklh.jpg',describe:'七牛娱乐产业支持计划'}
+                    {aHerf:'http://baike.baidu.com/item/%E5%92%8C%E7%94%B0/9207105?fromtitle=%E6%96%B0%E7%96%86%E5%92%8C%E7%94%B0&fromid=2348072&type=search&sefr=enterbtn',imgSrc:'../src/assets/imgs/n_ht.jpg',describe:'新疆和田'},
+                    {aHerf:'http://baike.baidu.com/item/%E8%BD%AE%E5%8F%B0%E8%83%A1%E6%9D%A8%E6%9E%97?sefr=enterbtn',imgSrc:'../src/assets/imgs/n_hyl.jpg',describe:'新疆轮台胡杨林'},
+                    {aHerf:'http://baike.baidu.com/item/%E5%8D%A1%E6%8B%89%E5%BA%93%E9%87%8C%E6%B9%96?sefr=enterbtn',imgSrc:'../src/assets/imgs/n_klklh.jpg',describe:'新疆卡拉库里湖'}
                 ]
             }
         }
