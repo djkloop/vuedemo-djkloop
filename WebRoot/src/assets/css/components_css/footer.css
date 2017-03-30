@@ -1,5 +1,33 @@
 @charset "utf-8";
 /*footer*/
+/*cont块距离顶部70px*/
+.mt {
+  margin-top: 0.77rem;
+}
+/*清除浮动*/
+.clearfloat:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+}
+.clearfloat {
+  zoom: 1;
+}
+.center {
+  position: relative;
+  width: 10.6rem;
+  margin: 0 auto;
+  clear: both;
+}
+/*图片自适应*/
+.img-res {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
 .footer,
 .footer a {
   color: #ffffff;
@@ -10,6 +38,7 @@
   padding: 0.9rem 0;
   font-size: 0.14rem;
   background: #1d1d1d;
+  overflow: hidden;
 }
 .footer a:hover {
   color: #1989fa;
@@ -21,7 +50,6 @@
 }
 .footer .footer_center .footer_logo {
   float: left;
-  width: 3.0rem;
 }
 .footer .footer_center .footer_logo a {
   width: 0.64rem;
@@ -85,7 +113,7 @@
   display: block;
   width: 35px;
   height: 35px;
-  background-image: url("../../imgs/iso27001.png");
+  background-image: url(../../imgs/iso27001.png);
   background-repeat: no-repeat;
   background-size: 30px 35px;
   float: right;
@@ -95,7 +123,7 @@
   display: block;
   width: 30px;
   height: 35px;
-  background: url("../../imgs/wp-content-themes-Earthshaker-1-images-kexinyun.png");
+  background-image: url(../../imgs/wp-content-themes-Earthshaker-1-images-kexinyun.png);
   background-repeat: no-repeat;
   background-size: 30px 35px;
   float: right;
@@ -104,4 +132,3 @@
   font-size: 0.12rem;
   margin-right: 0.12rem;
 }
-/*# sourceMappingURL=footer.css.map */

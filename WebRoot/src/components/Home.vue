@@ -93,17 +93,13 @@
 				this.top = top;
 				//如果大于400触发返回顶部
 				if(this.top > 400) {
-					//防止多次触发onscroll时间
+					//防止多次触发onscroll事件
 					$("#banner").fadeOut(600);
 					if(this.flag == true) {
 						return
 					}
 					this.flag = true;
-
 					//判断到底部触发返回顶部
-					//					console.log(this.top)
-					//					console.log(screenTop)
-					//					console.log(scrollHeight)
 					if(scrollTop > scrollHeight || scrollHeight == screenTop || this.top < scrollHeight || screenTop == 0) {
 						$(".backTop").slideDown('fast').animate({ 'right': "3%" }, 1000)
 					}
@@ -111,15 +107,15 @@
 					//防止0-400的时候多个动画重叠问题
 					let nowTop = this.top;
 					if($(".backTop").is(':animated')) {
-						if(nowTop == 0 && this.top < 120) {
-							$("#banner").css("display", 'block');
-							$(".backTop").slideUp().animate({ 'right': 0 }, 500);
-						}
+						if(nowTop > 400) {
+							$("#banner").css("display", 'none');
+							$(".backTop").slideDown().animate({ 'right': '3%' }, 500);
+						} 
 						return false;
 					} else {
 						this.flag = false;
 						$("#banner").css("display", 'block');
-						$(".backTop").slideUp().animate({ 'right': 0 }, 1000)
+						$(".backTop").animate({ 'right': 0 }, 1000).slideUp();
 					}
 				}
 			}

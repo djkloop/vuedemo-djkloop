@@ -1,7 +1,7 @@
 <template>
     <footer class="footer" id="footer">
         <div class="footer_center clearfloat">
-            <div class="footer_logo">
+            <div class="footer_logo col-15">
                 <router-link class="" to='/home'>
                     <img src="../../assets/imgs/logo_2.png" height="64" width="64">
                 </router-link>
@@ -9,80 +9,85 @@
             <nav class="footer_nav clearfloat">
                 <ul>
                     <li>
-                        <a>产品与服务</a>
+                        <a>特色文化</a>
                         <ul class="sub_nav">
-                            <router-link tag="li" to="/home">
-                                <a>对象储存</a>
+                            <router-link tag="li" to="/home/CustomerCase">
+                                <a>新疆多元素特色文化</a>
                             </router-link>
-                            <router-link tag="li" to="/home">
-                                <a>融合CDN</a>
+                            <router-link tag="li" to="/home/CustomerCase">
+                                <a>新疆民族文化介绍</a>
                             </router-link>
-                            <router-link tag="li" to="/home">
-                                <a>直播云</a>
+                            <router-link tag="li" to="/home/CustomerCase">
+                                <a>新疆民族舞蹈</a>
                             </router-link>
-                            <router-link tag="li" to="/home">
-                                <a>数据处理</a>
+                            <router-link tag="li" to="/home/CustomerCase">
+                                <a>新疆本地公司企业</a>
                             </router-link tag="li">
-                            <router-link tag="li" to="/home">
-                                <a>价格</a>
+                        </ul>
+                    </li>
+                    <li>
+                        <a>团结模范</a>
+                        <ul class="sub_nav">
+                            <router-link tag="li" to="/home/Price">
+                                <a>新疆民族团结一家亲</a>
+                            </router-link>
+                            <router-link tag="li" to="/home/Price">
+                                <a>新疆道德模范人物</a>
+                            </router-link>
+                            <router-link tag="li" to="/home/Price">
+                                <a>民族团结是新疆发展根本</a>
+                            </router-link>
+                            <router-link tag="li" to="/home/Price">
+                                <a>大美新疆,道德高地</a>
+                            </router-link tag="li">
+                        </ul>
+                    </li>
+                    <li>
+                        <a>旅游路线</a>
+                        <ul class="sub_nav">
+                            <router-link tag="li" to="/home/EcologyCooperation">
+                                <a>新疆国际大巴扎</a>
+                            </router-link>
+                            <router-link tag="li" to="/home/EcologyCooperation">
+                                <a>新疆天池五A级风景区</a>
+                            </router-link>
+                            <router-link tag="li" to="/home/EcologyCooperation">
+                                <a>新疆那拉提五A级风景区</a>
+                            </router-link>
+                            <router-link tag="li" to="/home/EcologyCooperation">
+                                <a>新疆喀纳斯五A级景区</a>
+                            </router-link tag="li">
+                            <router-link tag="li" to="/home/EcologyCooperation">
+                                <a>天山大峡谷五A级风景区</a>
                             </router-link>
                         </ul>
                     </li>
                     <li>
-                        <a>支持</a>
+                        <a>美食发现</a>
                         <ul class="sub_nav">
-                            <router-link tag="li" to="/home">
-                                <a>开发者中心</a>
+                            <router-link tag="li" to="/home/Support">
+                                <a>大盘系列</a>
                             </router-link>
-                            <router-link tag="li" to="/home">
-                                <a>问答社区</a>
+                            <router-link tag="li" to="/home/Support">
+                                <a>干果鲜果</a>
                             </router-link>
-                            <router-link tag="li" to="/home">
-                                <a>技术博客</a>
+                            <router-link tag="li" to="/home/Support">
+                                <a>精美小吃</a>
                             </router-link>
-                            <router-link tag="li" to="/home">
-                                <a>架构师实践日</a>
+                            <router-link tag="li" to="/home/Support">
+                                <a>烤串系列</a>
                             </router-link tag="li">
-                            <router-link tag="li" to="/home">
-                                <a>工单</a>
-                            </router-link>
+                            <router-link tag="li" to="/home/Support">
+                                <a>各地区美食攻略</a>
+                            </router-link tag="li">
                         </ul>
                     </li>
                     <li>
-                        <a>生态与合作</a>
+                        <a>参赛人员</a>
                         <ul class="sub_nav">
-                            <router-link tag="li" to="/home">
-                                <a>牛扶持</a>
-                            </router-link>
-                            <router-link tag="li" to="/home">
-                                <a>牛生态</a>
-                            </router-link>
-                            <router-link tag="li" to="/home">
-                                <a>开发合作</a>
-                            </router-link>
-                            <router-link tag="li" to="/home">
-                                <a>渠道合作</a>
-                            </router-link tag="li">
-                            <router-link tag="li" to="/home">
-                                <a>友情链接</a>
-                            </router-link>
-                        </ul>
-                    </li>
-                    <li>
-                        <a>公司</a>
-                        <ul class="sub_nav">
-                            <router-link tag="li" to="/home">
+                            <router-link tag="li" to="/home/Company">
                                 <a>关于我们</a>
                             </router-link>
-                            <router-link tag="li" to="/home">
-                                <a>加入我们</a>
-                            </router-link>
-                            <router-link tag="li" to="/home">
-                                <a>联系我们</a>
-                            </router-link>
-                            <router-link tag="li" to="/home">
-                                <a>媒体报道</a>
-                            </router-link tag="li">
                         </ul>
                     </li>
                 </ul>

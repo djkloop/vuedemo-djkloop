@@ -28,11 +28,11 @@
                 </div>
                 <div class="col-30 f-l img-pos" v-for="item in imgList2">
                     <div class="img-list" >
-                        <a class="img-a" :href=item.aHerf>
+                        <a class="img-a" :href=item.aHerf target="_blank">
                             <img class="img-res" :src=item.imgSrc alt="">
                         </a>
                         <h2 class="describe">
-                            <a :href=item.aHerf>{{item.describe}}</a>
+                            <a :href=item.aHerf target="_blank">{{item.describe}}</a>
                         </h2>
                     </div>
                 </div>

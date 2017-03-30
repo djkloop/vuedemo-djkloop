@@ -63,13 +63,11 @@
 }
 /*公共图文并中*/
 .food_img_center {
-  -webkit-transition: all 0.4s ease-in-out;
-          transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   cursor: pointer;
 }
 .food_img_center:hover {
-  -webkit-transform: translate3d(0, -8px, 0);
-          transform: translate3d(0, -8px, 0);
+  transform: translate3d(0, -8px, 0);
   box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.5);
 }
 .food_img_center img {
@@ -112,13 +110,10 @@
   overflow: hidden;
 }
 .food_find_7 .col img {
-  -webkit-transition: all 0.3s ease-in-out;
-          transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .food_find_7 .col img:hover {
-  -webkit-transform: scale(1.01);
-      -ms-transform: scale(1.01);
-          transform: scale(1.01);
+  transform: scale(1.01);
 }
 .food_find_7 .col_text_box {
   padding: 10px 30px;
@@ -152,7 +147,6 @@
 .food_find_8 .food_8_describe_text {
   text-align: center;
   font-size: 50px;
-  line-height: 250px;
 }
 .food_find_8 .food_8_p {
   font-size: 16px;
@@ -160,8 +154,7 @@
   margin: 10px auto;
   border: 1px solid #F2F2F2;
   color: #DBDBDB;
-  -webkit-transition: all 0.3s ease-in-out;
-          transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
 .food_find_8 .food_8_p:hover {

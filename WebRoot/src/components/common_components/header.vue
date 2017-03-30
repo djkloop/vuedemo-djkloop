@@ -13,16 +13,6 @@
 					</template>
 				</ul>
 			</nav>
-			<div id="app2">
-				<ul class="xb-login">
-					<router-link tag="li" to="/login">
-						<a class="login">登陆</a>
-					</router-link>
-					<router-link tag="li" to="/reg">
-						<a class="reg">注册</a>
-					</router-link>
-				</ul>
-			</div>
 		</div>
 		<div id="submenu">
 			<ul class="bg-white submenu col-100">

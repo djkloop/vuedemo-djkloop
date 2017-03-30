@@ -1,0 +1,28 @@
+/*cont块距离顶部70px*/
+.mt {
+  margin-top: 0.77rem;
+}
+/*清除浮动*/
+.clearfloat:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+}
+.clearfloat {
+  zoom: 1;
+}
+.center {
+  position: relative;
+  width: 10.6rem;
+  margin: 0 auto;
+  clear: both;
+}
+/*图片自适应*/
+.img-res {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}

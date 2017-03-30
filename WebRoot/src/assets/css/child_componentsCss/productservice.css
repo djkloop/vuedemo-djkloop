@@ -86,6 +86,9 @@
 .mgtb-1025 {
   margin: 0.1rem 0 0.25rem;
 }
+.mTop-50 {
+  margin: -0.5rem auto 0;
+}
 .bg-white {
   background: #ffffff;
 }
@@ -200,6 +203,7 @@ a.btn_text_5:hover:before {
   color: #1989fa;
 }
 .flex {
+  display: -moz-box;
   /* Firefox */
   display: -ms-flexbox;
   /* IE10 */
@@ -235,16 +239,35 @@ html {
 .productservice .culture {
   line-height: 200px;
 }
+.productservice .hove_title i {
+  background: url("../../imgs/arrow-page-links-h.png") no-repeat center 9px;
+  background-size: 19px 13px;
+  display: inline-block;
+  width: 38px;
+  height: 26px;
+  vertical-align: top;
+  opacity: 0;
+  transition: all 0.6s ease-in-out;
+}
+.productservice .hove_title span {
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+.productservice .hove_title:hover i {
+  opacity: 1;
+  margin-left: 5px;
+}
+.productservice .hove_title:hover span {
+  opacity: 1;
+}
 .productservice .culture_img {
   box-shadow: 0 0 10px #000000;
   border-radius: 50%;
   margin-right: 60px;
-  -webkit-transition: all 1s linear;
-          transition: all 1s linear;
+  transition: all 1s linear;
 }
 .productservice .culture_img:hover {
-  -webkit-transform: rotateZ(360deg);
-          transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
 }
 .productservice .fj_his {
   padding: 0.3rem 0.5rem 0 0;
@@ -353,10 +376,7 @@ html {
   margin-left: 0.9rem;
 }
 .DevLink .link div {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  flex: 1;
   height: 0.32rem;
   line-height: 0.32rem;
   padding: 0.34rem 0 0.34rem 0.34rem;
@@ -390,6 +410,9 @@ html {
   padding-right: 27px;
   font-weight: 400;
   -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
 .DevLink .link div a:hover {

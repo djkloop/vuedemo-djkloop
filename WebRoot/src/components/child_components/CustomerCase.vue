@@ -1,6 +1,6 @@
 <template>
 	<div class="mt" id="CustomerCase">
-		<section class="pdtb-110280 customercase bg-05">
+		<section class="pdtb-110280 customercase bg-05 clearfix">
 			<div class="center pdtb-110110">
 				<div class="pos_cs clearfix">
 					<h1 class="col-55 cs_h1">新疆文化 活力新疆 魅力新疆
@@ -13,7 +13,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="pdb-110 bg-gray">
+		<section class="pdb-110 bg-gray clearfix">
 			<div class="clearMarginRepeat">
 				<div class="Slider-case">
 					<div class="center">
@@ -52,7 +52,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="pdtb-110110 bg-white">
+		<section class="pdtb-110110 bg-white clearfix">
 			<div class="center">
 				<div class="culture_title">
 					<h2>新疆多元素特色文化</h2>
@@ -79,14 +79,14 @@
 				</div>
 			</div>
 		</section>
-		<section class="pdtb-110110 bg-gray">
+		<section class="pdtb-110110 bg-gray clearfix">
 			<div class="center">
 				<h2>带动新疆文化发展的本土企业</h2>
 				<el-tabs class="tabs">
 					<el-tab-pane :label=item class="clearfloat" v-for='(item,index) in tabTitleList' :key="item.id">
 						<div class='case'>
-							<ul v-for="(item,index) in ImgList" :key="item.id">
-								<li class="case-item">
+							<ul>
+								<li class="case-item" v-for="(item,index) in ImgList" :key="item.id">
 									<a href="javascrit:;">
 										<img :src=item width='70%' height="50%" />
 									</a>
@@ -100,9 +100,11 @@
 		<section class="pdtb-110110 bg-yh">
 			<div class="center clearfix">
 				<div class="ym_culture f-r">
-					<h2 class="ym_culture_h2 f-l col-100">新疆游牧民族</h2>
+					<h2 class="ym_culture_h2 f-l col-100">新疆民族舞蹈-刀郎舞</h2>
 					<p class="col-45  ym_culture_p f-r">
-						游牧民族被称为马背上的民族，他们的许多活动如：举行婚礼、赛马、射箭和摔跤等都要在马背上进行，匈奴、鲜卑、突厥、回鹘等少数民族从汉时起就与中原有的千丝万缕的联系，传承了游牧民族的文明和历史，而其与汉族形成融合，又共同演绎了不屈不挠的中华民族。
+						属于刀郎文化,刀郎舞又称“刀郎赛乃姆”,主要表现刀郎人狩猎过程。歌手引吭高歌,“哎呀呀”呼唤人们准备打猎。
+						舞者双手左右摆动、左右半转,表现猎人将浓密的灌木拨开寻找猎物。女舞者时而高举右手,时而高举左手,为男猎手举火把照明。
+						舞者忽而似弯弓欲射,发现猎物冲上去展开搏斗的舞姿。狩猎胜利,舞蹈的气氛热烈而欢快,表现出刀郎人男女共同维系生存的默契情爱。
 					</p>
 				</div>
 			</div>

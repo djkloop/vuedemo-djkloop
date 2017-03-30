@@ -25,7 +25,14 @@
 						$(".backTop").slideUp();
 						$("#banner").fadeIn();
 						_this.flag = true;
+						
 					})
+					//处理动画bug
+					if($(".backTop").is(':animated')){
+						$("#banner").css("display", 'none');
+						$(".backTop").stop(true,false).slideDown().animate({ 'right': '3%' }, 500);
+						_this.flag = true;
+					}
 				}
 			}
 		}

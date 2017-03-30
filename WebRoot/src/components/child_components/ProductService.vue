@@ -19,7 +19,9 @@
 					新疆印象现提供,旅行路线,旅行攻略,美食发现,特色文化等。如有需要请
 					<a class="ftw-500 tel-a" href="javascripe:;">点击咨询</a>
 				</p>
-				<a class="btn btn-normal btn-objSave btn_text_2" href="javascript:;">点击查看更多资讯</a>
+				<router-link to="/home/productService" class='btn btn-normal btn-objSave btn_text_2'>
+					点击查看更多资讯
+				</router-link>
 				<a class="ftw-500 tel-a" href="javascript:;">点击咨询私人订制旅游路线服务</a>
 			</div>
 		</section>
@@ -79,8 +81,8 @@
 				<!-- 这个地方完全可以从后台获取数据 -->
 				<el-tabs class="tabs" id="tabs" v-model="activeName" @tab-click="handleClick">
 					<el-tab-pane label="乌鲁木齐" class="clearfloat" name="first">
-						<div class="tabs-pos col-50">
-							<h4 class="ftw-400">乌鲁木齐</h4>
+						<div class="tabs-pos col-55">
+							<h4 class="ftw-400 hove_title">乌鲁木齐<i></i><span>天山大峡谷</span></h4>
 							<p class="ftw-400">
 								乌鲁木齐天山大峡谷位于乌鲁木齐南山板房沟乡走进天山大峡谷,您可以感受到陡峭险峻的山峰、神秘的原始森林、碧绿的山谷草原、 壮观的雪岭冰川、秀美的湖光山色、幽深的山涧峡谷、奔腾的溪流、浓郁的哈萨克风情。
 							</p>
@@ -90,8 +92,8 @@
 						</div>
 					</el-tab-pane>
 					<el-tab-pane label="吐鲁番" class="clearfloat" name="second">\
-						<div class="tabs-pos col-50">
-							<h4 class="ftw-400">吐鲁番</h4>
+						<div class="tabs-pos col-55">
+							<h4 class="ftw-400 hove_title">吐鲁番<i></i><span>葡萄沟</span></h4>
 							<p class="ftw-400">
 								葡萄沟于吐鲁番市东北7公里处,南北走向,横穿火焰山,沟内流水潺潺,瓜果飘香,凉爽宜人,是吐鲁番旅游避暑胜地的好去处。 火焰山位于吐鲁番盆地的中部盆地,神话小说《西游记》里有孙悟空三借芭蕉扇扑灭火焰山烈火的故事讲述就是火焰山。
 							</p>
@@ -101,8 +103,8 @@
 						</div>
 					</el-tab-pane>
 					<el-tab-pane label="阿克苏" class="clearfloat" name="third">
-						<div class="tabs-pos col-50">
-							<h4 class="ftw-400">阿克苏</h4>
+						<div class="tabs-pos col-55">
+							<h4 class="ftw-400 hove_title">阿克苏<i></i><span>托木尔大峡谷</span></h4>
 							<p class="ftw-400">
 								托木尔大峡谷是中国西部最震撼的地质奇观、中国最大的岩盐喀斯特地质胜景,媲美美国科罗拉多大峡谷。 托木尔大峡谷有中国罕见的远古岩盐地质绝景、中国西部奇特的雅丹地质怪景、中国独有的巨型岩溶蚀地质秘境, 堪称新疆“活的地质演变史博物馆。
 							</p>
@@ -112,8 +114,8 @@
 						</div>
 					</el-tab-pane>
 					<el-tab-pane label="阿勒泰" class="clearfloat" name="fourth">
-						<div class="tabs-pos col-50">
-							<h4 class="ftw-400">阿勒泰</h4>
+						<div class="tabs-pos col-55">
+							<h4 class="ftw-400 hove_title">阿勒泰<i></i><span>喀纳斯</span></h4>
 							<p class="ftw-400">
 								喀纳斯沿途欣赏驼劲湾、浪漫风情白桦林、神奇的卧龙湾、开阔的神仙湾、最富特色的月亮湾、野鸭出没的鸭泽湖。 贾登峪位于喀纳斯湖东南35公里处,它是一块长约2公里,宽约1.5公里的山间盆地,那里水草丰美,有牧民定居。
 							</p>
@@ -123,8 +125,8 @@
 						</div>
 					</el-tab-pane>
 					<el-tab-pane label="伊犁" class="clearfloat" name="fifth">
-						<div class="tabs-pos col-50">
-							<h4 class="ftw-400">伊犁</h4>
+						<div class="tabs-pos col-55">
+							<h4 class="ftw-400 hove_title">伊犁<i></i><span>解忧公主薰衣草园</span></h4>
 							<p class="ftw-400">
 								解忧公主薰衣草园,是中国唯一的薰衣草主产地,有“中国薰衣草之乡”的美称。 赛里木湖海拔2073米的赛里木湖湖水清碧如镜,湖畔群山环绕,松柏参天,雪峰倒影;春、夏、秋季湖滨芳草如茵,风光秀丽。 果子沟风景秀丽,景观奇异,历来被视为新疆的名胜之地,素有伊犁“第一景”之美称。
 							</p>
@@ -134,8 +136,8 @@
 						</div>
 					</el-tab-pane>
 					<el-tab-pane label="喀什" name="sixth">
-						<div class="tabs-pos col-50">
-							<h4 class="ftw-400">喀什</h4>
+						<div class="tabs-pos col-55">
+							<h4 class="ftw-400 hove_title">喀什<i></i><span>阿帕霍加墓</span></h4>
 							<p class="ftw-400">
 								阿帕霍加墓又名香妃墓,始建于公元1640年前后,距今已350年,是一座典型的伊斯兰式古老的陵墓建筑。 喀什噶尔-----新疆唯一的国家级历史文化名城,参观户您可以亲眼目睹到传统维吾尔居民家庭生活、民族风情、民族手工艺民族家访可以让您品尝到丰富的民族饮食。
 							</p>
